@@ -1,4 +1,0 @@
-package require Tcl
-
-#package provide solv __VERSION__
-load [::file join [::file dirname [::info script]] "solv-__VERSION__[::info sharedlibextension]"]
