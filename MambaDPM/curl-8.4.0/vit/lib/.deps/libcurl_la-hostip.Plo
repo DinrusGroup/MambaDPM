@@ -1,0 +1,306 @@
+libcurl_la-hostip.lo: ../../lib/hostip.c \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ ../../lib/curl_setup.h ../lib/curl_config.h ../../include/curl/system.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/time.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stddef.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/endian.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/endian.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap-16.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/select.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigset.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select2.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/sysmacros.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/socket.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/uio.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/uio.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket_type.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sockaddr.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/socket.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/socket.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/sockios.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/sockios.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket2.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/libio.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/_G_config.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/wchar.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdarg.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio2.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/assert.h \
+ ../../lib/curl_setup_once.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/string.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/xlocale.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string2.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string3.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/errno.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/errno.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/linux/errno.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/errno.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/stat.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stat.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/time.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdbool.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/unistd.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix_opt.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/environments.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/confname.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/getopt.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/unistd.h \
+ ../../lib/functypes.h ../../lib/curl_ctype.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/netinet/in.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdint.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdint.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/in.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/netdb.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/rpc/netdb.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/netdb.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/arpa/inet.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/setjmp.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp2.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/signal.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/signum.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/siginfo.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigaction.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigcontext.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigstack.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/ucontext.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigthread.h \
+ ../../lib/urldata.h ../../lib/cookie.h ../../include/curl/curl.h \
+ ../../include/curl/curlver.h ../../include/curl/system.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed/limits.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed/syslimits.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/limits.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix1_lim.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/local_lim.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/linux/limits.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix2_lim.h \
+ ../../include/curl/easy.h ../../include/curl/multi.h \
+ ../../include/curl/curl.h ../../include/curl/urlapi.h \
+ ../../include/curl/options.h ../../include/curl/header.h \
+ ../../include/curl/websockets.h ../../include/curl/typecheck-gcc.h \
+ ../../lib/psl.h ../../lib/formdata.h ../../lib/timeval.h \
+ ../../lib/timediff.h ../../lib/http_chunks.h ../../lib/hostip.h \
+ ../../lib/hash.h ../../lib/llist.h ../../lib/curl_addrinfo.h \
+ ../../lib/asyn.h ../../lib/splay.h ../../lib/dynbuf.h ../../lib/dynhds.h \
+ ../../lib/mime.h ../../lib/imap.h ../../lib/pingpong.h \
+ ../../lib/curl_sasl.h ../../lib/bufref.h ../../lib/pop3.h \
+ ../../lib/smtp.h ../../lib/ftp.h ../../lib/file.h ../../lib/vssh/ssh.h \
+ ../../lib/curl_setup.h /home/vitas/miniforge3/include/libssh2.h \
+ /home/vitas/miniforge3/include/libssh2_sftp.h \
+ /home/vitas/miniforge3/include/libssh2.h ../../lib/http.h \
+ ../../lib/bufq.h ../../lib/ws.h ../../lib/rtsp.h ../../lib/smb.h \
+ ../../lib/mqtt.h ../../lib/ftplistparser.h ../../lib/multihandle.h \
+ ../../lib/conncache.h ../../lib/socketpair.h ../../lib/c-hyper.h \
+ ../../lib/cf-socket.h ../../lib/nonblock.h ../../lib/sockaddr.h \
+ ../../lib/sendf.h ../../lib/curl_trc.h ../../lib/rand.h \
+ ../../lib/share.h ../../lib/url.h ../../lib/inet_ntop.h \
+ ../../lib/inet_pton.h ../../lib/multiif.h ../../lib/doh.h \
+ ../../lib/warnless.h ../../lib/strcase.h ../../lib/easy_lock.h \
+ /home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdatomic.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sched.h \
+ /home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h \
+ ../../lib/curl_printf.h ../../include/curl/mprintf.h \
+ ../../lib/curl_memory.h ../../lib/memdebug.h
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h:
+../../lib/curl_setup.h:
+../lib/curl_config.h:
+../../include/curl/system.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/time.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stddef.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/endian.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/endian.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap-16.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/select.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigset.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select2.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/sysmacros.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/socket.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/uio.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/uio.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket_type.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sockaddr.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/socket.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/socket.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/sockios.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/sockios.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/socket2.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/libio.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/_G_config.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/wchar.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdarg.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio2.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/assert.h:
+../../lib/curl_setup_once.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/string.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/xlocale.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string2.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string3.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/errno.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/errno.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/linux/errno.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm/errno.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/stat.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stat.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/time.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdbool.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/unistd.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix_opt.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/environments.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/confname.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/getopt.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/unistd.h:
+../../lib/functypes.h:
+../../lib/curl_ctype.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/netinet/in.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdint.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/stdint.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/in.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/netdb.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/rpc/netdb.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/netdb.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/arpa/inet.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/setjmp.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp2.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/signal.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/signum.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/siginfo.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigaction.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigcontext.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigstack.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sys/ucontext.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigthread.h:
+../../lib/urldata.h:
+../../lib/cookie.h:
+../../include/curl/curl.h:
+../../include/curl/curlver.h:
+../../include/curl/system.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed/limits.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed/syslimits.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/limits.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix1_lim.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/local_lim.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/linux/limits.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix2_lim.h:
+../../include/curl/easy.h:
+../../include/curl/multi.h:
+../../include/curl/curl.h:
+../../include/curl/urlapi.h:
+../../include/curl/options.h:
+../../include/curl/header.h:
+../../include/curl/websockets.h:
+../../include/curl/typecheck-gcc.h:
+../../lib/psl.h:
+../../lib/formdata.h:
+../../lib/timeval.h:
+../../lib/timediff.h:
+../../lib/http_chunks.h:
+../../lib/hostip.h:
+../../lib/hash.h:
+../../lib/llist.h:
+../../lib/curl_addrinfo.h:
+../../lib/asyn.h:
+../../lib/splay.h:
+../../lib/dynbuf.h:
+../../lib/dynhds.h:
+../../lib/mime.h:
+../../lib/imap.h:
+../../lib/pingpong.h:
+../../lib/curl_sasl.h:
+../../lib/bufref.h:
+../../lib/pop3.h:
+../../lib/smtp.h:
+../../lib/ftp.h:
+../../lib/file.h:
+../../lib/vssh/ssh.h:
+../../lib/curl_setup.h:
+/home/vitas/miniforge3/include/libssh2.h:
+/home/vitas/miniforge3/include/libssh2_sftp.h:
+/home/vitas/miniforge3/include/libssh2.h:
+../../lib/http.h:
+../../lib/bufq.h:
+../../lib/ws.h:
+../../lib/rtsp.h:
+../../lib/smb.h:
+../../lib/mqtt.h:
+../../lib/ftplistparser.h:
+../../lib/multihandle.h:
+../../lib/conncache.h:
+../../lib/socketpair.h:
+../../lib/c-hyper.h:
+../../lib/cf-socket.h:
+../../lib/nonblock.h:
+../../lib/sockaddr.h:
+../../lib/sendf.h:
+../../lib/curl_trc.h:
+../../lib/rand.h:
+../../lib/share.h:
+../../lib/url.h:
+../../lib/inet_ntop.h:
+../../lib/inet_pton.h:
+../../lib/multiif.h:
+../../lib/doh.h:
+../../lib/warnless.h:
+../../lib/strcase.h:
+../../lib/easy_lock.h:
+/home/vitas/miniforge3/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/stdatomic.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/sched.h:
+/home/vitas/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h:
+../../lib/curl_printf.h:
+../../include/curl/mprintf.h:
+../../lib/curl_memory.h:
+../../lib/memdebug.h:
