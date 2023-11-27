@@ -52,9 +52,9 @@ namespace mamba
             }
             depth -= 1;
 
-            if (s && s->requires)
+            if (s && s->requires_)
             {
-                Id* reqp = s->repo->idarraydata + s->requires;
+                Id* reqp = s->repo->idarraydata + s->requires_;
                 Id req = *reqp;
 
                 while (req != 0)

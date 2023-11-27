@@ -62,7 +62,7 @@ namespace mamba::solv
     /******************************************
      *  Implementation of getter and setters  *
      ******************************************/
-
+/* Уже определено в repo.cpp
     namespace
     {
         auto ptr_to_strview(const char* ptr) -> std::string_view
@@ -74,7 +74,7 @@ namespace mamba::solv
             }
             return { ptr };
         }
-
+*/
         /**
          * Add a string to the solvable pool.
          *

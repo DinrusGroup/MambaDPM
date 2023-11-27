@@ -98,7 +98,7 @@ namespace mamba
         Id id() const;
         Repo* repo() const;
 
-        struct [[deprecated]] PyExtraPkgInfo
+        struct /* [[deprecated]] */ PyExtraPkgInfo
         {
             std::string noarch;
             std::string repo_url;

@@ -433,7 +433,7 @@ namespace mamba
             }
             else
             {
-                return fmt::format(m_format, val, w);
+                return static_cast<const std::string> (fmt::format(m_format, val, w));
             }
         }
         else
@@ -444,7 +444,7 @@ namespace mamba
 
     std::string FieldRepr::value() const
     {
-        return m_value;
+        return static_cast<const std::string> (m_value);
     }
 
     std::size_t FieldRepr::width(bool allow_overflow) const
